@@ -20,13 +20,13 @@
         <div class="main-navigation__wrapper">
           <ul class="main-navigation__site-navigation site-navigation">
             <li class="site-navigation__item site-navigation__item--active">
-              <a class="site-navigation__link" href="#">Лендинг</a>
+              <a class="site-navigation__link" href="landing.html">Лендинг</a>
             </li>
             <li class="site-navigation__item">
-              <a class="site-navigation__link" href="#">Многостраничник</a>
+              <a class="site-navigation__link" href="multi-line.html">Многостраничник</a>
             </li>
             <li class="site-navigation__item">
-              <a class="site-navigation__link" href="#">Интернет-Магазин</a>
+              <a class="site-navigation__link" href="e-shop.html">Интернет-Магазин</a>
             </li>
             <li class="site-navigation__item">
               <a class="site-navigation__link" href="#">Каталог готовых сайтов</a>
@@ -46,8 +46,10 @@
   <main class="page__content main">
     <h1 class="visually-hidden">Главная страница сайта WEB-Studio</h1>
       <section class="promo">
-        <h2 class="promo__title">Создание и продвижение сайтов</h2>
-        <p class="promo__descr">Делаем красивые и современные сайты для  привличение клиентов в ваш бизнес</p>
+        <div class="promo__wrapper">
+          <h2 class="promo__title">Создание и продвижение сайтов</h2>
+          <p class="promo__descr">Делаем красивые и современные сайты для  привличения клиентов</p>
+        </div>
       </section>
       <section class="product">
         <div class="product__wrapper">
@@ -74,34 +76,39 @@
           </div>
         </div>
       </section>
-      <section class="questions">
-        <div class="questions__wrapper">
-          <h2 class="questions__title">Узнайте стоимость разработки Вашего сайта</h2>
-          <ul class="questions__list">
-            <li class="questions__item">
-              <a class="questions__link" href="#">
-                <h3 class="questions__link-title">Сделать сайт</h3>
-              </a>
-            </li>
-            <li class="questions__item">
-              <a class="questions__link" href="#">
-                <h3 class="questions__link-title">Обслуживание сайта</h3>
-              </a>
-            </li>
-            <li class="questions__item">
-              <a class="questions__link" href="#">
-                <h3 class="questions__link-title">Больше заявок</h3>
-              </a>
-            </li>
-            <li class="questions__item">
-              <a class="questions__link" href="#">
-                <h3 class="questions__link-title">Настройка рекламы</h3>
-              </a>
-            </li>
-          </ul>
-          <button class="button button--primary" type="button">Далее</button>
-        </div>
+
+      <section class="cost">
+        <h2 class="cost__title">Узнайте стоимость разработки Вашего лендинга</h2>
+        <p class="cost__descr">Ответьте на несколько простых вопросов</p>
+        <ul class="questions">
+          <li class="questions__item">
+            <a class="questions__link" href="#">
+              <img class="questions__img" src="" alt="">
+              <p class="questions__descr">Сделать сайт</p>
+            </a>
+          </li>
+          <li class="questions__item">
+            <a class="questions__link" href="#">
+              <img class="questions__img" src="" alt="">
+              <p class="questions__descr">Обслуживание сайта</p>
+            </a>
+          </li>
+          <li class="questions__item">
+            <a class="questions__link" href="#">
+              <img class="questions__img" src="" alt="">
+              <p class="questions__descr">Больше заявок</p>
+            </a>
+          </li>
+          <li class="questions__item">
+            <a class="questions__link" href="#">
+              <img class="questions__img" src="" alt="">
+              <p class="questions__descr">Настройка рекламы</p>
+            </a>
+          </li>
+        </ul>
+        <button class="button button--primary button--icon" type="button">Далее</button>
       </section>
+
       <section class="works">
         <div class="works__wrapper">
           <h2 class="works__title">Разработали и воплотили в жизнь более 200 сайтов</h2>
@@ -140,26 +147,28 @@
         </ol>
       </section>
       <section class="feedback">
-        <h2 class="feedback__title">Вам нужен сайт, который будет приносить клиентов?</h2>
-        <form class="feedback-form" action="https://echo.htmlacademy.ru/" method="post">
-          <fieldset class="feedback-form__section">
-            <legend class="feedback-form__section-title">Заполните форму и мы свяжемся с вами в ближайшее время!</legend>
-            <label class="feedback-form__field feedback-form__field--required">
-              <input class="feedback-form__field-control" type="text" name="owner-name" id="owner-name" placeholder="Ваше имя">
-            </label>
-            <label class="feedback-form__field feedback-form__field--required">
-              <input type="tel" name="owner-phone" id="owner-phone" placeholder="Номер вашего телефона">
-            </label>
-            <label class="feedback-form__field">
-              <textarea class="feedback-form__field-control textarea" name="comment" id="comment" cols="30" rows="10" placeholder="Ваш вопрос"></textarea>
-            </label>
-            <label class="feedback-form__field checkbox">
-              <input class="visually-hidden" type="checkbox" name="personal-data" id="personal-data" checked>
-              <span class="checkbox__label">Я согласен с условиями обработки персональных данных </span>
-            </label>
-          </fieldset>
-          <button class="button button--primary" type="submit">Отправить</button>
-        </form>
+        <div class="feedback__wrapper">
+          <h2 class="feedback__title">Вам нужен сайт, который будет приносить клиентов?</h2>
+          <form class="feedback-form" action="https://echo.htmlacademy.ru/" method="post">
+            <fieldset class="feedback-form__section">
+              <legend class="feedback-form__section-title">Заполните форму и мы свяжемся с вами в ближайшее время!</legend>
+              <label class="feedback-form__field feedback-form__field--required">
+                <input class="feedback-form__field-control" type="text" name="owner-name" id="owner-name" placeholder="Ваше имя">
+              </label>
+              <label class="feedback-form__field feedback-form__field--required">
+                <input type="tel" name="owner-phone" id="owner-phone" placeholder="Номер вашего телефона">
+              </label>
+              <label class="feedback-form__field">
+                <textarea class="feedback-form__field-control textarea" name="comment" id="comment" cols="30" rows="10" placeholder="Ваш вопрос"></textarea>
+              </label>
+              <label class="feedback-form__field checkbox">
+                <input class="visually-hidden" type="checkbox" name="personal-data" id="personal-data" checked>
+                <span class="checkbox__label">Я согласен с условиями обработки персональных данных</span>
+              </label>
+            </fieldset>
+            <button class="button button--primary" type="submit">Отправить</button>
+          </form>
+        </div>
       </section>
   </main>
 
@@ -211,8 +220,10 @@
       </ul>
     </div>
     <div class="page-footer__row page-footer__row--copyright">
-      <a class="page-footer__link" href="#">Политика кондифициальности</a>
-      <p class="page-footer__copyright">Все права защищены</p>
+      <div class="page-footer__column">
+        <a class="page-footer__link" href="#">Политика кондифициальности</a>
+        <p class="page-footer__copyright">© Все права защищены</p>
+      </div>
     </div>
   </footer>
 
