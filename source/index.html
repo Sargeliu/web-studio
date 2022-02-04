@@ -10,8 +10,8 @@
 <body class="page__body">
 
   <header class="page-header page__header">
-    <a href="page-header__logo logo">
-      <img class="logo__img" src="" alt="">
+    <a class="page-header__logo logo">
+      <img class="logo__img" src="img/logo/logo-48.svg" alt="Логотип сайта - Yool">
     </a>
     <nav class="main-navigation main-navigation--vertical page__nav">
       <button class="main-navigation__toggle" type="button">
@@ -29,7 +29,7 @@
               <a class="site-navigation__link" href="store.html">Интернет-Магазин</a>
             </li>
             <li class="site-navigation__item">
-              <a class="site-navigation__link" href="#">Каталог готовых сайтов</a>
+              <a class="site-navigation__link" href="catalog.html">Каталог готовых сайтов</a>
             </li>
             <li class="site-navigation__item">
               <a class="site-navigation__link" href="#">Настройка рекламы</a>
@@ -44,41 +44,39 @@
   </header>
 
   <main class="page__content main">
-    <h1 class="visually-hidden">Главная страница сайта WEB-Studio</h1>
+    <div class="main-wrapper">
+      <h1 class="visually-hidden">Главная страница сайта WEB-Studio</h1>
       <section class="promo">
-        <div class="promo__wrapper">
-          <h2 class="promo__title">Создание и продвижение сайтов</h2>
-          <p class="promo__descr">Делаем красивые и современные сайты для  привличения клиентов</p>
-        </div>
+        <h2 class="promo__title">Создание и продвижение сайтов</h2>
+        <img class="promo__img" src="img/promo/header.png" width="320" height="351" alt="Красивый сайт на фоне Ноутбука и Телефона">
+        <p class="promo__descr">Делаем <span class="promo__descr-color">красивые и современные сайты</span> для  привличения клиентов</p>
       </section>
       <section class="product">
-        <div class="product__wrapper">
-          <h2 class="product__title">Какой тип сайта вам нужен?</h2>
-          <div class="product__content">
-            <article class="product-card">
-              <h3 class="product-card__title">Лендинг</h3>
-              <img class="product-card__img" src="" alt="">
-              <p class="product-card__price">от 35 000 руб</p>
-              <a class="button button--primary" href="#">Подробнее</a>
-            </article>
-            <article class="product-card">
-              <h3 class="product-card__title">Многостраничный</h3>
-              <img class="product-card__img" src="" alt="">
-              <p class="product-card__price">от 45 000 руб</p>
-              <a class="button button--primary" href="#">Подробнее</a>
-            </article>
-            <article class="product-card">
-              <h3 class="product-card__title">Интернет-магазин</h3>
-              <img class="product-card__img" src="" alt="">
-              <p class="product-card__price">от 49 000 руб</p>
-              <a class="button button--primary" href="#">Подробнее</a>
-            </article>
-          </div>
+        <h2 class="product__title">Какой тип сайта вам нужен?</h2>
+        <div class="product__content">
+          <article class="product-card">
+            <h3 class="product-card__title">Лендинг</h3>
+            <img class="product-card__img" width="283" height="218" src="img/product/landing.png" alt="Образец Лендинга">
+            <p class="product-card__price">от <span class="product-card__price-bold">35 000</span> руб</p>
+            <a class="button button--primary" href="#">Подробнее</a>
+          </article>
+          <article class="product-card">
+            <h3 class="product-card__title">Многостраничный</h3>
+            <img class="product-card__img" width="283" height="219" src="img/product/multi.png" alt="Образец Многостраничника">
+            <p class="product-card__price">от 45 000 руб</p>
+            <a class="button button--primary" href="#">Подробнее</a>
+          </article>
+          <article class="product-card">
+            <h3 class="product-card__title">Интернет-магазин</h3>
+            <img class="product-card__img" width="283" height="219" src="img/product/store.png" alt="Образец Интернет-магазина">
+            <p class="product-card__price">от 49 000 руб</p>
+            <a class="button button--primary" href="#">Подробнее</a>
+          </article>
         </div>
       </section>
 
       <section class="cost">
-        <h2 class="cost__title">Узнайте стоимость разработки Вашего лендинга</h2>
+        <h2 class="cost__title">Узнайте стоимость разработки Вашего сайта</h2>
         <p class="cost__descr">Ответьте на несколько простых вопросов</p>
         <div class="cost__slider slider">
           <div class="slider__item">
@@ -268,6 +266,7 @@
           </form>
         </div>
       </section>
+    </div>
   </main>
 
   <footer class="page__footer">
