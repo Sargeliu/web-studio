@@ -80,8 +80,8 @@
         <p class="cost__descr">Ответьте на несколько простых вопросов</p>
         <div class="cost__slider slider">
           <div class="slider__item">
-            <p class="slider__question">1 из 4 вопросов</p>
             <h3 class="slider__title">Что Вы хотите получить?</h3>
+            <p class="slider__question">1 из 4 вопросов</p>
             <ul class="questions">
               <li class="questions__item">
                 <a class="questions__link" href="#">
@@ -133,7 +133,7 @@
                 </a>
               </li>
             </ul>
-            <button class="button button--primary button--icon" type="button">Далее</button>
+            <button class="button button--primary button--icon slider__button" type="button">Далее</button>
           </div>
           <div class="slider__item">
             <h3 class="slider__title">Как будем делать сайт?</h3>
@@ -152,7 +152,7 @@
                 </a>
               </li>
             </ul>
-            <button class="button button--primary button--icon" type="button">Далее</button>
+            <button class="button button--primary button--icon slider__button" type="button">Далее</button>
           </div>
           <div class="slider__item">
             <h3 class="slider__title">Выберите, что дополнительно к сайту нужно</h3>
@@ -183,7 +183,7 @@
                 </a>
               </li>
             </ul>
-            <button class="button button--primary" type="button">Закончить</button>
+            <button class="button button--primary slider__button" type="button">Закончить</button>
           </div>
           <div class="slider__item">
             <form class="feedback-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -229,7 +229,7 @@
             </a>
           </li>
         </ul>
-        <button class="button button--primary" type="button">Загрузить еще</button>
+        <button class="button button--primary works__button" type="button">Загрузить еще</button>
       </section>
       <section class="advantages">
         <h2 class="advantages__title">Заказывая сайт, Вы получаете</h2>
@@ -244,22 +244,20 @@
         <h2 class="feedback__title">Вам нужен сайт, который будет приносить клиентов?</h2>
         <form class="feedback-form" action="https://echo.htmlacademy.ru/" method="post">
           <fieldset class="feedback-form__section">
-            <legend class="feedback-form__section-title"><span>Заполните форму</span> <br> и мы свяжемся с вами в ближайшее время!</legend>
+            <legend class="feedback-form__section-title">Заполните форму</legend>
+            <p class="feedback-form__section-descr">и мы свяжемся с вами в ближайшее время!</p>
             <label class="feedback-form__field feedback-form__field--required">
               <input class="feedback-form__field-control" type="text" name="owner-name" id="owner-name" placeholder="Введите Ваше имя">
             </label>
             <label class="feedback-form__field feedback-form__field--required">
               <input class="feedback-form__field-control" type="tel" name="owner-phone" id="owner-phone" placeholder="Номер вашего телефона">
             </label>
-            <label class="feedback-form__field">
-              <textarea class="feedback-form__field-control textarea" name="comment" id="comment" cols="25" rows="5" placeholder="Ваш вопрос"></textarea>
-            </label>
             <label class="feedback-form__field checkbox">
               <input class="visually-hidden" type="checkbox" name="personal-data" id="personal-data" checked>
               <span class="checkbox__label">Я согласен с условиями обработки персональных данных</span>
             </label>
           </fieldset>
-          <button class="button button--primary" type="submit">Отправить</button>
+          <button class="button button--primary feedback-form__button" type="submit">Отправить</button>
         </form>
       </section>
     </div>
@@ -296,22 +294,6 @@
             </ul>
           </div>
         </div>
-    </div>
-    <div class="page-footer__row">
-      <ul class="social">
-        <li class="social__item">
-          <a class="social__link" href="">
-          </a>
-        </li>
-        <li class="social__item">
-          <a class="social__link" href="">
-          </a>
-        </li>
-        <li class="social__item">
-          <a class="social__link" href="">
-          </a>
-        </li>
-      </ul>
     </div>
     <div class="page-footer__row page-footer__row--copyright">
       <div class="page-footer__column">
