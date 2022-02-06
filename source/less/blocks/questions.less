@@ -1,0 +1,26 @@
+.questions {
+  display: grid;
+  grid-template-columns: repeat(2, 141px);
+  grid-template-rows: 1fr;
+  gap: 18px;
+  padding: 23px 0 23px 0;
+  margin: 0;
+  list-style-type: none;
+
+  &__item {
+    width: 141px;
+    height: 141px;
+    background-color: @white;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    border-radius: 9px;
+  }
+
+  &__descr {
+    margin: 0;
+    color: #222;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  }
+}

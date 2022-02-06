@@ -44,7 +44,7 @@
   </header>
 
   <main class="page__content main">
-    <div class="main-wrapper">
+    <div class="main__wrapper">
       <h1 class="visually-hidden">Главная страница сайта WEB-Studio</h1>
       <section class="promo">
         <h2 class="promo__title">Создание и продвижение сайтов</h2>
@@ -58,19 +58,19 @@
             <h3 class="product-card__title">Лендинг</h3>
             <img class="product-card__img" width="283" height="218" src="img/product/landing.png" alt="Образец Лендинга">
             <p class="product-card__price">от <span class="product-card__price-bold">35 000</span> руб</p>
-            <a class="button button--primary" href="#">Подробнее</a>
+            <a class="button button--primary product-card__button" href="#">Подробнее</a>
           </article>
           <article class="product-card">
             <h3 class="product-card__title">Многостраничный</h3>
             <img class="product-card__img" width="283" height="219" src="img/product/multi.png" alt="Образец Многостраничника">
-            <p class="product-card__price">от 45 000 руб</p>
-            <a class="button button--primary" href="#">Подробнее</a>
+            <p class="product-card__price">от <span class="product-card__price-bold">45 000</span> руб</p>
+            <a class="button button--primary product-card__button" href="#">Подробнее</a>
           </article>
           <article class="product-card">
             <h3 class="product-card__title">Интернет-магазин</h3>
             <img class="product-card__img" width="283" height="219" src="img/product/store.png" alt="Образец Интернет-магазина">
-            <p class="product-card__price">от 49 000 руб</p>
-            <a class="button button--primary" href="#">Подробнее</a>
+            <p class="product-card__price">от <span class="product-card__price-bold">49 000</span> руб</p>
+            <a class="button button--primary product-card__button" href="#">Подробнее</a>
           </article>
         </div>
       </section>
@@ -80,35 +80,35 @@
         <p class="cost__descr">Ответьте на несколько простых вопросов</p>
         <div class="cost__slider slider">
           <div class="slider__item">
-            <h3 class="slider__title">Что Вы хотите получить?</h3>
             <p class="slider__question">1 из 4 вопросов</p>
+            <h3 class="slider__title">Что Вы хотите получить?</h3>
             <ul class="questions">
               <li class="questions__item">
                 <a class="questions__link" href="#">
-                  <img class="questions__img" src="" alt="">
+                  <img class="questions__img" src="img/questions/site.png" width="124" height="82" alt="">
                   <p class="questions__descr">Сделать сайт</p>
                 </a>
               </li>
               <li class="questions__item">
                 <a class="questions__link" href="#">
-                  <img class="questions__img" src="" alt="">
+                  <img class="questions__img" src="img/questions/service.png" width="107" height="88" alt="">
                   <p class="questions__descr">Обслуживание сайта</p>
                 </a>
               </li>
               <li class="questions__item">
                 <a class="questions__link" href="#">
-                  <img class="questions__img" src="" alt="">
+                  <img class="questions__img" src="img/questions/applications.png" width="79" height="87" alt="">
                   <p class="questions__descr">Больше заявок</p>
                 </a>
               </li>
               <li class="questions__item">
                 <a class="questions__link" href="#">
-                  <img class="questions__img" src="" alt="">
-                  <p class="questions__descr">Настройка ррекламы</p>
+                  <img class="questions__img" src="img/questions/advertising.png" width="104" height="104" alt="">
+                  <p class="questions__descr">Настройка рекламы</p>
                 </a>
               </li>
             </ul>
-            <button class="button button--primary button--icon" type="button">Далее</button>
+            <button class="button button--primary button--icon slider__button" type="button">Далее</button>
           </div>
           <div class="slider__item">
             <h3 class="slider__title">Какой у Вас вид деятельности?</h3>
@@ -190,13 +190,13 @@
               <fieldset class="feedback-form__section">
               <legend class="feedback-form__section-title">Заполните форму и мы свяжемся с вами в ближайшее время!</legend>
               <label class="feedback-form__field feedback-form__field--required">
-                <input class="feedback-form__field-control" type="text" name="owner-name" id="owner-name" placeholder="Ваше имя">
+                <input class="feedback-form__field-control" type="text" name="owner-name" id="owner-name" placeholder="Введите Ваше имя">
               </label>
               <label class="feedback-form__field feedback-form__field--required">
-                <input type="tel" name="owner-phone" id="owner-phone" placeholder="Номер вашего телефона">
+                <input class="feedback-form__field-control" type="tel" name="owner-phone" id="owner-phone" placeholder="Номер вашего телефона">
               </label>
               <label class="feedback-form__field feedback-form__field--required">
-                <input type="email" name="owner-email" id="owner-email" placeholder="Введите ваш E-mail">
+                <input class="feedback-form__field-control" type="email" name="owner-email" id="owner-email" placeholder="Введите ваш E-mail">
               </label>
               </fieldset>
               <button class="button button--primary" type="submit">Отправить</button>
@@ -206,32 +206,30 @@
       </section>
 
       <section class="works">
-        <div class="works__wrapper">
-          <h2 class="works__title">Разработали и воплотили в жизнь более 200 сайтов</h2>
-          <ul class="works__list">
-            <li class="works__item">
-              <a class="works__link" href="#">
-                <img class="works__img" src="" alt="">
-              </a>
-            </li>
-            <li class="works__item">
-              <a class="works__link" href="#">
-                <img class="works__img" src="" alt="">
-              </a>
-            </li>
-            <li class="works__item">
-              <a class="works__link" href="#">
-                <img class="works__img" src="" alt="">
-              </a>
-            </li>
-            <li class="works__item">
-              <a class="works__link" href="#">
-                <img class="works__img" src="" alt="">
-              </a>
-            </li>
-          </ul>
-          <button class="button button--primary" type="button">Загрузить еще</button>
-        </div>
+        <h2 class="works__title">Разработали и воплотили в жизнь более 200 сайтов</h2>
+        <ul class="works__list">
+          <li class="works__item">
+            <a class="works__link" href="#">
+              <img class="works__img" src="img/works/1.jpg" width="301" height="301" alt="">
+            </a>
+          </li>
+          <li class="works__item">
+            <a class="works__link" href="#">
+              <img class="works__img" src="img/works/2.jpg" width="301" height="301" alt="">
+            </a>
+          </li>
+          <li class="works__item">
+            <a class="works__link" href="#">
+              <img class="works__img" src="img/works/3.jpg" width="301" height="301" alt="">
+            </a>
+          </li>
+          <li class="works__item">
+            <a class="works__link" href="#">
+              <img class="works__img" src="img/works/4.jpg" width="301" height="301" alt="">
+            </a>
+          </li>
+        </ul>
+        <button class="button button--primary" type="button">Загрузить еще</button>
       </section>
       <section class="advantages">
         <h2 class="advantages__title">Заказывая сайт, Вы получаете</h2>
@@ -243,34 +241,33 @@
         </ol>
       </section>
       <section class="feedback">
-        <div class="feedback__wrapper">
-          <h2 class="feedback__title">Вам нужен сайт, который будет приносить клиентов?</h2>
-          <form class="feedback-form" action="https://echo.htmlacademy.ru/" method="post">
-            <fieldset class="feedback-form__section">
-              <legend class="feedback-form__section-title">Заполните форму и мы свяжемся с вами в ближайшее время!</legend>
-              <label class="feedback-form__field feedback-form__field--required">
-                <input class="feedback-form__field-control" type="text" name="owner-name" id="owner-name" placeholder="Ваше имя">
-              </label>
-              <label class="feedback-form__field feedback-form__field--required">
-                <input type="tel" name="owner-phone" id="owner-phone" placeholder="Номер вашего телефона">
-              </label>
-              <label class="feedback-form__field">
-                <textarea class="feedback-form__field-control textarea" name="comment" id="comment" cols="30" rows="10" placeholder="Ваш вопрос"></textarea>
-              </label>
-              <label class="feedback-form__field checkbox">
-                <input class="visually-hidden" type="checkbox" name="personal-data" id="personal-data" checked>
-                <span class="checkbox__label">Я согласен с условиями обработки персональных данных</span>
-              </label>
-            </fieldset>
-            <button class="button button--primary" type="submit">Отправить</button>
-          </form>
-        </div>
+        <h2 class="feedback__title">Вам нужен сайт, который будет приносить клиентов?</h2>
+        <form class="feedback-form" action="https://echo.htmlacademy.ru/" method="post">
+          <fieldset class="feedback-form__section">
+            <legend class="feedback-form__section-title"><span>Заполните форму</span> <br> и мы свяжемся с вами в ближайшее время!</legend>
+            <label class="feedback-form__field feedback-form__field--required">
+              <input class="feedback-form__field-control" type="text" name="owner-name" id="owner-name" placeholder="Введите Ваше имя">
+            </label>
+            <label class="feedback-form__field feedback-form__field--required">
+              <input class="feedback-form__field-control" type="tel" name="owner-phone" id="owner-phone" placeholder="Номер вашего телефона">
+            </label>
+            <label class="feedback-form__field">
+              <textarea class="feedback-form__field-control textarea" name="comment" id="comment" cols="25" rows="5" placeholder="Ваш вопрос"></textarea>
+            </label>
+            <label class="feedback-form__field checkbox">
+              <input class="visually-hidden" type="checkbox" name="personal-data" id="personal-data" checked>
+              <span class="checkbox__label">Я согласен с условиями обработки персональных данных</span>
+            </label>
+          </fieldset>
+          <button class="button button--primary" type="submit">Отправить</button>
+        </form>
       </section>
     </div>
   </main>
 
   <footer class="page__footer">
-    <div class="page-footer__row">
+    <div class="page-footer__wrapper">
+      <div class="page-footer__row">
         <div class="service-navigation">
             <div class="service-navigation__column">
               <ul class="service-navigation__list">
@@ -321,6 +318,7 @@
         <a class="page-footer__link" href="#">Политика кондифициальности</a>
         <p class="page-footer__copyright">© Все права защищены</p>
       </div>
+    </div>
     </div>
   </footer>
 

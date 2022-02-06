@@ -10,11 +10,15 @@
   }
 
   &__content {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 26px;
     padding: 26px 0 26px 0;
   }
 }
 
 .product-card {
+  display: grid;
   background: @white;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11);
   border-radius: 12px;
@@ -26,7 +30,6 @@
     font-size: 18px;
     font-weight: 400;
     text-align: center;
-
   }
 
   &__img {
@@ -47,5 +50,9 @@
     &-bold {
       font-weight: 600;
     }
+  }
+
+  &__button {
+    margin: auto;
   }
 }
