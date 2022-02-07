@@ -1,10 +1,16 @@
 .service-navigation {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+
   &__list {
+    display: grid;
     margin: 0;
     padding: 0;
     list-style-type: none;
+  }
+
+  &__list-right {
+    justify-content: end;
   }
 
   &__link {
