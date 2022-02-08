@@ -59,19 +59,25 @@
         <div class="product__content">
           <article class="product-card">
             <h3 class="product-card__title">Лендинг</h3>
-            <img class="product-card__img" width="283" height="218" src="img/product/landing.png" alt="Образец Лендинга">
+            <div class="product-card__img-box">
+              <img class="product-card__img" width="220" height="162" src="img/product/landing.png" alt="Образец Лендинга">
+            </div>
             <p class="product-card__price">от <span class="product-card__price-bold">35 000</span> руб</p>
             <a class="button button--primary product-card__button" href="#">Подробнее</a>
           </article>
           <article class="product-card">
             <h3 class="product-card__title">Многостраничный</h3>
-            <img class="product-card__img" width="283" height="219" src="img/product/multi.png" alt="Образец Многостраничника">
+            <div class="product-card__img-box">
+              <img class="product-card__img" width="220" height="160" src="img/product/multi.png" alt="Образец Многостраничника">
+            </div>
             <p class="product-card__price">от <span class="product-card__price-bold">45 000</span> руб</p>
             <a class="button button--primary product-card__button" href="#">Подробнее</a>
           </article>
           <article class="product-card">
             <h3 class="product-card__title">Интернет-магазин</h3>
-            <img class="product-card__img" width="283" height="219" src="img/product/store.png" alt="Образец Интернет-магазина">
+            <div class="product-card__img-box">
+              <img class="product-card__img" width="220" height="158" src="img/product/store.png" alt="Образец Интернет-магазина">
+            </div>
             <p class="product-card__price">от <span class="product-card__price-bold">49 000</span> руб</p>
             <a class="button button--primary product-card__button" href="#">Подробнее</a>
           </article>
@@ -87,28 +93,28 @@
             <p class="slider__question">1 из 4 вопросов</p>
             <ul class="questions">
               <li class="questions__item">
-                <a class="questions__link" href="#">
-                  <img class="questions__img" src="img/questions/site.png" width="124" height="82" alt="">
-                  <p class="questions__descr">Сделать сайт</p>
-                </a>
+                <button class="questions__btn" href="#">
+                  <img class="questions__btn-img" src="img/questions/site.png" width="108" height="81" alt="">
+                  <span class="questions__btn-descr">Сделать сайт</span>
+                </button>
               </li>
               <li class="questions__item">
-                <a class="questions__link" href="#">
-                  <img class="questions__img" src="img/questions/service.png" width="107" height="88" alt="">
-                  <p class="questions__descr">Обслуживание сайта</p>
-                </a>
+                <button class="questions__btn" href="#">
+                  <img class="questions__btn-img" src="img/questions/service.png" width="85" height="83" alt="">
+                  <span class="questions__btn-descr">Обслуживание сайта</span>
+                </button>
               </li>
               <li class="questions__item">
-                <a class="questions__link" href="#">
-                  <img class="questions__img" src="img/questions/applications.png" width="79" height="87" alt="">
-                  <p class="questions__descr">Больше заявок</p>
-                </a>
+                <button class="questions__btn" href="#">
+                  <img class="questions__btn-img" src="img/questions/applications.png" width="79" height="87" alt="">
+                  <span class="questions__btn-descr">Больше заявок</span>
+                </button>
               </li>
               <li class="questions__item">
-                <a class="questions__link" href="#">
-                  <img class="questions__img" src="img/questions/advertising.png" width="104" height="104" alt="">
-                  <p class="questions__descr">Настройка рекламы</p>
-                </a>
+                <button class="questions__btn" href="#">
+                  <img class="questions__btn-img" src="img/questions/advertising.png" width="69" height="66" alt="">
+                  <span class="questions__btn-descr">Настройка рекламы</span>
+                </button>
               </li>
             </ul>
             <button class="button button--primary button--icon slider__button" type="button">Далее</button>
@@ -118,22 +124,22 @@
             <p class="slider__question">2 из 4 вопросов</p>
             <ul class="questions">
               <li class="questions__item">
-                <a class="questions__link" href="#">
-                  <img class="questions__img" src="" alt="">
-                  <p class="questions__descr">Услуга</p>
-                </a>
+                <button class="questions__btn">
+                  <img class="questions__btn-img" src="img/questions/services.png" width="79" height="72" alt="">
+                  <span class="questions__btn-descr">Услуга</span>
+                </button>
               </li>
               <li class="questions__item">
-                <a class="questions__link" href="#">
-                  <img class="questions__img" src="" alt="">
-                  <p class="questions__descr">Продажа услуги</p>
-                </a>
+                <button class="questions__btn">
+                  <img class="questions__btn-img" src="img/questions/sale-service.png" width="117" height="65" alt="">
+                  <span class="questions__btn-descr">Продажа услуги</span>
+                </button>
               </li>
               <li class="questions__item">
-                <a class="questions__link" href="#">
-                  <img class="questions__img" src="" alt="">
-                  <p class="questions__descr">Все вместе</p>
-                </a>
+                <button class="questions__btn">
+                  <img class="questions__btn-img" src="img//questions/all.png" width="105" height="91" alt="">
+                  <span class="questions__btn-descr">Все вместе</span>
+                </button>
               </li>
             </ul>
             <button class="button button--primary button--icon slider__button" type="button">Далее</button>
@@ -143,16 +149,16 @@
             <p class="slider__question">3 из 4 вопросов</p>
             <ul class="questions">
               <li class="questions__item">
-                <a class="questions__link" href="#">
-                  <img class="questions__img" src="" alt="">
-                  <p class="questions__descr">Сделать сайт уже на готовом решении</p>
-                </a>
+                <button class="questions__btn">
+                  <img class="questions__btn-img" src="img/questions/ready-design.png" width="64" height="64" alt="">
+                  <span class="questions__btn-descr">Сделать сайт уже на готовом решении</span>
+                </button>
               </li>
               <li class="questions__item">
-                <a class="questions__link" href="#">
-                  <img class="questions__img" src="" alt="">
-                  <p class="questions__descr">Разработать уникальный дизайн сайта</p>
-                </a>
+                <button class="questions__btn">
+                  <img class="questions__btn-img" src="img/questions/design.png" width="60" height="68" alt="">
+                  <span class="questions__btn-descr">Разработать уникальный дизайн сайта</span>
+                </button>
               </li>
             </ul>
             <button class="button button--primary button--icon slider__button" type="button">Далее</button>
@@ -162,28 +168,34 @@
             <p class="slider__question">4 из 4 вопросов</p>
             <ul class="questions">
               <li class="questions__item">
-                <a class="questions__link" href="#">
-                  <img class="questions__img" src="" alt="">
-                  <p class="questions__descr">Интеграция с СРМ (Амо, Битрикс24)</p>
-                </a>
+                <button class="questions__btn">
+                  <img class="questions__btn-img" src="img/questions/cpm-wp.png" width="108" height="72" alt="">
+                  <span class="questions__btn-descr">Интеграция с СРМ</span>
+                </button>
               </li>
               <li class="questions__item">
-                <a class="questions__link" href="#">
-                  <img class="questions__img" src="" alt="">
-                  <p class="questions__descr">Яндекс директ реклама</p>
-                </a>
+                <button class="questions__btn">
+                  <img class="questions__btn-img" src="img/questions/ya.png" width="118" height="66" alt="">
+                  <span class="questions__btn-descr">Яндекс директ реклама</span>
+                </button>
               </li>
               <li class="questions__item">
-                <a class="questions__link" href="#">
-                  <img class="questions__img" src="" alt="">
-                  <p class="questions__descr">Настройка рекламы соц. сети</p>
-                </a>
+                <button class="questions__btn">
+                  <img class="questions__btn-img" src="img/questions/socials.png" width="113" height="51" alt="">
+                  <span class="questions__btn-descr">Настройка рекламы соц. сети</span>
+                </button>
               </li>
               <li class="questions__item">
-                <a class="questions__link" href="#">
-                  <img class="questions__img" src="" alt="">
-                  <p class="questions__descr">SEO продвижение</p>
-                </a>
+                <button class="questions__btn">
+                  <img class="questions__btn-img" src="img/questions/google.png" width="61" height="76" alt="">
+                  <span class="questions__btn-descr">Google реклама</span>
+                </button>
+              </li>
+              <li class="questions__item">
+                <button class="questions__btn">
+                  <img class="questions__btn-img" src="img/questions/seo.png" width="95" height="75" alt="">
+                  <span class="questions__btn-descr">SEO продвижение</span>
+                </button>
               </li>
             </ul>
             <button class="button button--primary slider__button" type="button">Закончить</button>
@@ -213,22 +225,22 @@
         <ul class="works__list">
           <li class="works__item">
             <a class="works__link" href="#">
-              <img class="works__img" src="img/works/1.jpg" width="301" height="301" alt="">
+              <img class="works__img" src="img/works/materials.jpg" width="301" height="301" alt="">
             </a>
           </li>
           <li class="works__item">
             <a class="works__link" href="#">
-              <img class="works__img" src="img/works/2.jpg" width="301" height="301" alt="">
+              <img class="works__img" src="img/works/furniture.jpg" width="301" height="301" alt="">
             </a>
           </li>
           <li class="works__item">
             <a class="works__link" href="#">
-              <img class="works__img" src="img/works/3.jpg" width="301" height="301" alt="">
+              <img class="works__img" src="img/works/play-equipment.jpg" width="301" height="301" alt="">
             </a>
           </li>
           <li class="works__item">
             <a class="works__link" href="#">
-              <img class="works__img" src="img/works/4.jpg" width="301" height="301" alt="">
+              <img class="works__img" src="img/works/plumbing.jpg" width="301" height="301" alt="">
             </a>
           </li>
         </ul>

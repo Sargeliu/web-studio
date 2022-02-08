@@ -1,5 +1,5 @@
 .product {
-  padding-bottom: 25px;
+  padding-bottom: 65px;
 
   &__title {
     margin: 0;
@@ -11,7 +11,6 @@
 
   &__content {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
     row-gap: 26px;
     padding: 26px 0 0 0;
   }
@@ -35,13 +34,26 @@
   &__img {
     display: block;
     margin: 0 auto;
+  }
+
+  &__img-box {
+    padding: 31px 0;
     border-top: 1px solid rgba(196, 196, 196, 0.39);
     border-bottom: 1px solid rgba(196, 196, 196, 0.39);
   }
 
+  &__descr {
+    margin: 0;
+    padding-top: 19px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+  }
+
   &__price {
     margin: 0;
-    padding: 16px 0 16px 0;
+    padding: 20px 0 20px 0;
     color: @green;
     font-size: 18px;
     line-height: 21px;
