@@ -1,6 +1,12 @@
 .service-navigation {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  column-gap: 48px;
+
+  &__row {
+    display: grid;
+    row-gap: 34px;
+  }
 
   &__category {
     margin: 0;
