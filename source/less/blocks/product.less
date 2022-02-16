@@ -1,4 +1,5 @@
 .product {
+  padding-top: 65px;
   padding-bottom: 65px;
 
   &__title {
@@ -22,6 +23,11 @@
     @media (min-width: @tablet-width) {
       grid-template-columns: repeat(auto-fit, minmax(232px, 1fr));
       column-gap: 15px;
+    }
+
+    @media (min-width: @desktop-width) {
+      grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+      column-gap: 30px;
     }
   }
 }
