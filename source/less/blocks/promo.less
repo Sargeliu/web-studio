@@ -1,15 +1,18 @@
 .promo {
-  height: 550PX;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 33px 0 65px 0;
-  background-image: url("../../img/promo/large-mobile.jpg");
+  height: 450px;
+  background-image: url("../../img/promo/header.png");
+  background-position: center 70px;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: #252f3a;
-  border: none;
+
+  @media (min-width: @tablet-width) {
+    padding-left: 50px;
+    background-position: center right;
+    justify-content: center;
+    align-items: flex-start;
+  }
 
   &__title {
     margin: 0;

@@ -43,17 +43,17 @@
   </header>
 
   <main class="page__content main">
-    <div class="main__wrapper">
-      <h1 class="visually-hidden">Создание сайта Лендинга в WEB-Studio</h1>
+    <h1 class="visually-hidden">Создание сайта Лендинга в WEB-Studio</h1>
 
       <section class="promo">
         <h2 class="promo__title">Создание лендингов</h2>
         <p class="promo__descr">Отлично подходит для быстрого запуска <span class="promo__descr-color">товара или услуги</span></p>
       </section>
 
-      <section class="product">
-        <h2 class="product__title">Вы можете заказать 2 варианта сайта</h2>
-        <div class="product__content">
+      <div class="main__wrapper">
+        <section class="product">
+          <h2 class="product__title">Вы можете заказать 2 варианта сайта</h2>
+          <div class="product__content">
           <article class="product-card">
               <h3 class="product-card__title">Лендинг на готовом решении</h3>
               <div class="product-card__img-box">
@@ -72,114 +72,374 @@
               <p class="product-card__price">от <span class="product-card__price-bold">35 000</span> руб</p>
               <a class="button button--primary product-card__button" href="#">Подробнее</a>
             </article>
-        </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="main__wrapper">
+        <section class="cost">
+          <h2 class="cost__title">Узнайте стоимость разработки Вашего лендинга</h2>
+          <p class="cost__descr">Ответьте на несколько простых вопросов</p>
+          <div class="cost__slider slider">
+            <div class="slider__item">
+              <h3 class="slider__title">Какой у Вас вид деятельности?</h3>
+              <p class="slider__question">1 из 4 вопросов</p>
+              <ul class="questions">
+                <li class="questions__item">
+                  <button class="questions__btn">
+                    <img class="questions__btn-img" src="img/questions/services.png" width="79" height="72" alt="">
+                    <span class="questions__btn-descr">Услуга</span>
+                  </button>
+                </li>
+                <li class="questions__item">
+                  <button class="questions__btn">
+                    <img class="questions__btn-img" src="img/questions/sale-service.png" width="117" height="65" alt="">
+                    <span class="questions__btn-descr">Продажа услуги</span>
+                  </button>
+                </li>
+                <li class="questions__item">
+                  <button class="questions__btn">
+                    <img class="questions__btn-img" src="img//questions/all.png" width="105" height="91" alt="">
+                    <span class="questions__btn-descr">Все вместе</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="button button--primary button--icon slider__button" type="button">Далее</button>
+            </div>
+            <div class="slider__item">
+              <h3 class="slider__title">Вам нужна настройка рекламы?</h3>
+              <p class="slider__question">2 из 4 вопросов</p>
+              <ul class="questions">
+                <li class="questions__item">
+                  <button class="questions__btn">
+                    <img class="questions__btn-img" src="img/questions/yes.png" width="68" height="68" alt="">
+                    <p class="questions__btn-descr">Да, нужна</p>
+                  </button>
+                </li>
+                <li class="questions__item">
+                  <button class="questions__btn">
+                    <img class="questions__btn-img" src="img/questions/no.png" width="68" height="68" alt="">
+                    <p class="questions__btn-descr">Нет, не нужна</p>
+                  </button>
+                </li>
+              </ul>
+              <button class="button button--primary button--icon slider__button" type="button">Далее</button>
+            </div>
+            <div class="slider__item">
+              <h3 class="slider__title">Как будем делать лендинг?</h3>
+              <p class="slider__question">3 из 4 вопросов</p>
+              <ul class="questions">
+                <li class="questions__item">
+                  <button class="questions__btn">
+                    <img class="questions__btn-img" src="img/questions/ready-design.png" width="64" height="64" alt="">
+                    <span class="questions__btn-descr">Сделать сайт уже на готовом решении</span>
+                  </button>
+                </li>
+                <li class="questions__item">
+                  <button class="questions__btn">
+                    <img class="questions__btn-img" src="img/questions/design.png" width="60" height="68" alt="">
+                    <span class="questions__btn-descr">Разработать уникальный дизайн сайта</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="button button--primary button--icon slider__button" type="button">Далее</button>
+            </div>
+            <div class="slider__item">
+              <h3 class="slider__title">Выберите, что дополнительно к сайту нужно</h3>
+              <p class="slider__question">4 из 4 вопросов</p>
+              <ul class="questions">
+                <li class="questions__item">
+                  <button class="questions__btn">
+                    <img class="questions__btn-img" src="img/questions/cpm-wp.png" width="108" height="72" alt="">
+                    <span class="questions__btn-descr">Интеграция с СРМ</span>
+                  </button>
+                </li>
+                <li class="questions__item">
+                  <button class="questions__btn">
+                    <img class="questions__btn-img" src="img/questions/ya.png" width="118" height="66" alt="">
+                    <span class="questions__btn-descr">Яндекс директ реклама</span>
+                  </button>
+                </li>
+                <li class="questions__item">
+                  <button class="questions__btn">
+                    <img class="questions__btn-img" src="img/questions/socials.png" width="113" height="51" alt="">
+                    <span class="questions__btn-descr">Настройка рекламы соц. сети</span>
+                  </button>
+                </li>
+                <li class="questions__item">
+                  <button class="questions__btn">
+                    <img class="questions__btn-img" src="img/questions/google.png" width="61" height="76" alt="">
+                    <span class="questions__btn-descr">Google реклама</span>
+                  </button>
+                </li>
+                <li class="questions__item">
+                  <button class="questions__btn">
+                    <img class="questions__btn-img" src="img/questions/seo.png" width="95" height="75" alt="">
+                    <span class="questions__btn-descr">SEO продвижение</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="button button--primary slider__button" type="button">Закончить</button>
+            </div>
+            <div class="slider__item">
+              <form class="feedback-form" action="https://echo.htmlacademy.ru/" method="post">
+                <fieldset class="feedback-form__section">
+                <legend class="feedback-form__section-title">Заполните форму и мы свяжемся с вами в ближайшее время!</legend>
+                <label class="feedback-form__field feedback-form__field--required">
+                  <input class="feedback-form__field-control" type="text" name="owner-name" id="owner-name" placeholder="Ваше имя">
+                </label>
+                <label class="feedback-form__field feedback-form__field--required">
+                  <input class="feedback-form__field-control" type="tel" name="owner-phone" id="owner-phone" placeholder="Номер вашего телефона">
+                </label>
+                <label class="feedback-form__field feedback-form__field--required">
+                  <input class="feedback-form__field-control" type="email" name="owner-email" id="owner-email" placeholder="Введите ваш E-mail">
+                </label>
+                </fieldset>
+                <button class="button button--primary" type="submit">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="works">
+        <h2 class="works__title">Наши лендинги, которые приносят клиентов</h2>
+        <ul class="works__list">
+          <li class="works__item">
+            <a class="works__link" href="#">
+              <img class="works__img" src="img/works/stroyservis.jpg" width="320" height="300" alt="">
+            </a>
+          </li>
+          <li class="works__item">
+            <a class="works__link" href="#">
+              <img class="works__img" src="img/works/equipment.jpg" width="320" height="300" alt="">
+            </a>
+          </li>
+          <li class="works__item">
+            <a class="works__link" href="#">
+              <img class="works__img" src="img/works/roof.png" width="320" height="300" alt="">
+            </a>
+          </li>
+          <li class="works__item">
+            <a class="works__link" href="#">
+              <img class="works__img" src="img/works/electrician.jpg" width="320" height="300" alt="">
+            </a>
+          </li>
+        </ul>
+        <button class="button button--primary works__button" type="button">Загрузить еще</button>
       </section>
 
-      <section class="cost">
-        <h2 class="cost__title">Узнайте стоимость разработки Вашего лендинга</h2>
-        <p class="cost__descr">Ответьте на несколько простых вопросов</p>
-        <div class="cost__slider slider">
-          <div class="slider__item">
-            <h3 class="slider__title">Какой у Вас вид деятельности?</h3>
-            <p class="slider__question">1 из 4 вопросов</p>
-            <ul class="questions">
-              <li class="questions__item">
-                <button class="questions__btn">
-                  <img class="questions__btn-img" src="img/questions/services.png" width="79" height="72" alt="">
-                  <span class="questions__btn-descr">Услуга</span>
-                </button>
-              </li>
-              <li class="questions__item">
-                <button class="questions__btn">
-                  <img class="questions__btn-img" src="img/questions/sale-service.png" width="117" height="65" alt="">
-                  <span class="questions__btn-descr">Продажа услуги</span>
-                </button>
-              </li>
-              <li class="questions__item">
-                <button class="questions__btn">
-                  <img class="questions__btn-img" src="img//questions/all.png" width="105" height="91" alt="">
-                  <span class="questions__btn-descr">Все вместе</span>
-                </button>
-              </li>
-            </ul>
-            <button class="button button--primary button--icon slider__button" type="button">Далее</button>
+      <div class="main__wrapper">
+        <section class="maintenance">
+          <h2 class="maintenance__title">В стоимость разработки входит:</h2>
+          <ul class="questions">
+            <li class="questions__item">
+              <button class="questions__btn" href="#">
+                <img class="questions__btn-img" src="img/maintenance/devices.png" width="88" height="66" alt="">
+                <span class="questions__btn-descr">Лендинг будет отображаться на всех устройствах</span>
+              </button>
+            </li>
+            <li class="questions__item">
+              <button class="questions__btn" href="#">
+                <img class="questions__btn-img" src="img/maintenance/domain.png" width="71" height="75"  alt="">
+                <span class="questions__btn-descr">Домен и хостинг, где будет сайт</span>
+              </button>
+            </li>
+            <li class="questions__item">
+              <button class="questions__btn" href="#">
+                <img class="questions__btn-img" src="img/maintenance/service.png" height="67" width="71" alt="">
+                <span class="questions__btn-descr">3 месяца бесплатного обслуживания</span>
+              </button>
+            </li>
+            <li class="questions__item">
+              <button class="questions__btn" href="#">
+                <img class="questions__btn-img" src="img/maintenance/cpm.png" width="94" height="63" alt="">
+                <span class="questions__btn-descr">Подключим интеграцию с СРМ</span>
+              </button>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="main__wrapper">
+        <section class="catalog">
+          <h2 class="catalog__title">Сайты, которые гарантировано будут приносить Вам заявки</h2>
+          <div class="catalog__content">
+            <article class="website">
+              <img class="website__img" src="img/catalog/roof.jpg" width="300" height="233" alt="">
+              <div class="website__content">
+                <h3 class="website__content-title">Задачи:</h3>
+                <ol class="website__list">
+                  <li class="website__item">Создание сайта под компанию</li>
+                  <li class="website__item">Увеличить поток клиентов</li>
+                  <li class="website__item">Обучение персонала работе с СРМ системой</li>
+                  <li class="website__item">Улучшение узнаваемости компании в интернете</li>
+                </ol>
+              </div>
+              <div class="website__content">
+                <h3 class="website__content-title">Итоги:</h3>
+                <p class="website__content-descr">Количество заявок 669</p>
+                <p class="website__content-descr">Цена заявки 1750 руб</p>
+              </div>
+              <div class="website__content">
+                <h3 class="website__content-title">Сайт:</h3>
+                <a class="website__content-link" href="#">granss.ru</a>
+              </div>
+            </article>
+            <article class="website">
+              <img class="website__img" src="img/catalog/roof.jpg" width="300" height="233" alt="">
+              <div class="website__content">
+                <h3 class="website__content-title">Задачи:</h3>
+                <ol class="website__list">
+                  <li class="website__item">Создание сайта под компанию</li>
+                  <li class="website__item">Увеличить поток клиентов</li>
+                  <li class="website__item">Обучение персонала работе с СРМ системой</li>
+                  <li class="website__item">Улучшение узнаваемости компании в интернете</li>
+                </ol>
+              </div>
+              <div class="website__content">
+                <h3 class="website__content-title">Итоги:</h3>
+                <p class="website__content-descr">Количество заявок 250</p>
+                <p class="website__content-descr">Цена заявки 2000 руб</p>
+              </div>
+              <div class="website__content">
+                <h3 class="website__content-title">Сайт:</h3>
+                <a class="website__content-link" href="#">kuhnia.aksat.ru</a>
+              </div>
+            </article>
+            <article class="website">
+              <img class="website__img" src="img/catalog/roof.jpg" width="300" height="233" alt="">
+              <div class="website__content">
+                <h3 class="website__content-title">Задачи:</h3>
+                <ol class="website__list">
+                  <li class="website__item">Создание сайта под компанию</li>
+                  <li class="website__item">Увеличить поток клиентов</li>
+                  <li class="website__item">Обучение персонала работе с СРМ системой</li>
+                  <li class="website__item">Улучшение узнаваемости компании в интернете</li>
+                </ol>
+              </div>
+              <div class="website__content">
+                <h3 class="website__content-title">Итоги:</h3>
+                <p class="website__content-descr">Количество заявок 470</p>
+                <p class="website__content-descr">Цена заявки 1490 руб</p>
+              </div>
+              <div class="website__content">
+                <h3 class="website__content-title">Сайт:</h3>
+                <a class="website__content-link" href="#">claren.ru</a>
+              </div>
+            </article>
+            <article class="website">
+              <img class="website__img" src="img/catalog/roof.jpg" width="300" height="233" alt="">
+              <div class="website__content">
+                <h3 class="website__content-title">Задачи:</h3>
+                <ol class="website__list">
+                  <li class="website__item">Создание сайта под компанию</li>
+                  <li class="website__item">Увеличить поток клиентов</li>
+                  <li class="website__item">Обучение персонала работе с СРМ системой</li>
+                  <li class="website__item">Улучшение узнаваемости компании в интернете</li>
+                </ol>
+              </div>
+              <div class="website__content">
+                <h3 class="website__content-title">Итоги:</h3>
+                <p class="website__content-descr">Количество заявок 899</p>
+                <p class="website__content-descr">Цена заявки 1200 руб</p>
+              </div>
+              <div class="website__content">
+                <h3 class="website__content-title">Сайт:</h3>
+                <a class="website__content-link" href="#">vessta.ru</a>
+              </div>
+            </article>
+            <button class="button button--primary" type="button">Загрузить еще</button>
           </div>
-          <div class="slider__item">
-            <h3 class="slider__title">Вам нужна настройка рекламы?</h3>
-            <p class="slider__question">2 из 4 вопросов</p>
-            <ul class="questions">
-              <li class="questions__item">
-                <button class="questions__btn">
-                  <img class="questions__btn-img" src="img/questions/yes.png" width="68" height="68" alt="">
-                  <p class="questions__btn-descr">Да, нужна</p>
-                </button>
-              </li>
-              <li class="questions__item">
-                <button class="questions__btn">
-                  <img class="questions__btn-img" src="img/questions/no.png" width="68" height="68" alt="">
-                  <p class="questions__btn-descr">Нет, не нужна</p>
-                </button>
-              </li>
-            </ul>
-            <button class="button button--primary button--icon slider__button" type="button">Далее</button>
+        </section>
+      </div>
+
+      <div class="main__wrapper">
+        <section class="feedback">
+          <h2 class="feedback__title">Вам нужен сайт, который будет приносить клиентов?</h2>
+          <form class="feedback-form" action="https://echo.htmlacademy.ru/" method="post">
+          <fieldset class="feedback-form__section">
+          <legend class="feedback-form__section-title">Заполните форму и мы свяжемся с вами в ближайшее время!</legend>
+          <label class="feedback-form__field feedback-form__field--required">
+            <input class="feedback-form__field-control" type="text" name="owner-name" id="owner-name" placeholder="Ваше имя">
+          </label>
+          <label class="feedback-form__field feedback-form__field--required">
+            <input class="feedback-form__field-control" type="tel" name="owner-phone" id="owner-phone" placeholder="Номер вашего телефона">
+          </label>
+          <label class="feedback-form__field feedback-form__field--required">
+            <input class="feedback-form__field-control" type="email" name="owner-email" id="owner-email" placeholder="Введите ваш E-mail">
+          </label>
+          </fieldset>
+          <button class="button button--primary" type="submit">Отправить</button>
+          </form>
+        </section>
+      </div>
+
+      <div class="main__wrapper">
+        <section class="info">
+          <h2 class="info__title">Часто задаваемые вопросы</h2>
+          <div class="info__row">
+            <div class="info__content">
+              <h3 class="info__content-title">Как происходит рабочий процесс по созданию сайта?</h3>
+              <ol class="info__list">
+                <li class="info__item"> Маркетолог создает прототип будущего сайта - самый важный этап в создании сайта.</li>
+                <li class="info__item"> После утверждения прототипа мы рисуем дизайн (ПК, мобильная версия).</li>
+                <li class="info__item"> После утверждения дизайна мы приступаем к верстке и программированию.</li>
+                <li class="info__item"> После программирования на сайт заливается контент (текст / фото и т.д.).</li>
+                <li class="info__item"> После контента сайт размещается на основном домене.</li>
+                <li class="info__item"> Сайт готов, все доступы передаются заказчику.</li>
+              </ol>
+            </div>
+            <div class="info__content">
+              <h3 class="info__content-title">Какую гарантию даете на создание сайта?</h3>
+              <ol class="info__list">
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+              </ol>
+            </div>
+            <div class="info__content">
+              <h3 class="info__content-title">Сколько времени уходит на создание сайта?</h3>
+              <ol class="info__list">
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+              </ol>
+            </div>
+            <div class="info__content">
+              <h3 class="info__content-title">Можно ли потом менять самостоятельно информацию на сайте: фото, текст, контакты?</h3>
+              <ol class="info__list">
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+              </ol>
+            </div>
+            <div class="info__content">
+              <h3 class="info__content-title">Почему стоимость сайта выше, чем у конкурентов?</h3>
+              <ol class="info__list">
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+                <li class="info__item"></li>
+              </ol>
+            </div>
           </div>
-          <div class="slider__item">
-            <h3 class="slider__title">Как будем делать лендинг?</h3>
-            <p class="slider__question">3 из 4 вопросов</p>
-            <ul class="questions">
-              <li class="questions__item">
-                <button class="questions__btn">
-                  <img class="questions__btn-img" src="img/questions/ready-design.png" width="64" height="64" alt="">
-                  <span class="questions__btn-descr">Сделать сайт уже на готовом решении</span>
-                </button>
-              </li>
-              <li class="questions__item">
-                <button class="questions__btn">
-                  <img class="questions__btn-img" src="img/questions/design.png" width="60" height="68" alt="">
-                  <span class="questions__btn-descr">Разработать уникальный дизайн сайта</span>
-                </button>
-              </li>
-            </ul>
-            <button class="button button--primary button--icon slider__button" type="button">Далее</button>
-          </div>
-          <div class="slider__item">
-            <h3 class="slider__title">Выберите, что дополнительно к сайту нужно</h3>
-            <p class="slider__question">4 из 4 вопросов</p>
-            <ul class="questions">
-              <li class="questions__item">
-                <button class="questions__btn">
-                  <img class="questions__btn-img" src="img/questions/cpm-wp.png" width="108" height="72" alt="">
-                  <span class="questions__btn-descr">Интеграция с СРМ</span>
-                </button>
-              </li>
-              <li class="questions__item">
-                <button class="questions__btn">
-                  <img class="questions__btn-img" src="img/questions/ya.png" width="118" height="66" alt="">
-                  <span class="questions__btn-descr">Яндекс директ реклама</span>
-                </button>
-              </li>
-              <li class="questions__item">
-                <button class="questions__btn">
-                  <img class="questions__btn-img" src="img/questions/socials.png" width="113" height="51" alt="">
-                  <span class="questions__btn-descr">Настройка рекламы соц. сети</span>
-                </button>
-              </li>
-              <li class="questions__item">
-                <button class="questions__btn">
-                  <img class="questions__btn-img" src="img/questions/google.png" width="61" height="76" alt="">
-                  <span class="questions__btn-descr">Google реклама</span>
-                </button>
-              </li>
-              <li class="questions__item">
-                <button class="questions__btn">
-                  <img class="questions__btn-img" src="img/questions/seo.png" width="95" height="75" alt="">
-                  <span class="questions__btn-descr">SEO продвижение</span>
-                </button>
-              </li>
-            </ul>
-            <button class="button button--primary slider__button" type="button">Закончить</button>
-          </div>
-          <div class="slider__item">
+          <div class="info__row">
             <form class="feedback-form" action="https://echo.htmlacademy.ru/" method="post">
               <fieldset class="feedback-form__section">
               <legend class="feedback-form__section-title">Заполните форму и мы свяжемся с вами в ближайшее время!</legend>
@@ -196,258 +456,8 @@
               <button class="button button--primary" type="submit">Отправить</button>
             </form>
           </div>
-        </div>
-      </section>
-
-      <section class="works">
-        <h2 class="works__title">Наши лендинги, которые приносят клиентов</h2>
-        <ul class="works__list">
-          <li class="works__item">
-            <a class="works__link" href="#">
-              <img class="works__img" src="img/works/stroyservis.jpg" width="300" height="300" alt="">
-            </a>
-          </li>
-          <li class="works__item">
-            <a class="works__link" href="#">
-              <img class="works__img" src="img/works/equipment.jpg" width="300" height="300" alt="">
-            </a>
-          </li>
-          <li class="works__item">
-            <a class="works__link" href="#">
-              <img class="works__img" src="img/works/roof.png" width="300" height="300" alt="">
-            </a>
-          </li>
-          <li class="works__item">
-            <a class="works__link" href="#">
-              <img class="works__img" src="img/works/electrician.jpg" width="300" height="300" alt="">
-            </a>
-          </li>
-        </ul>
-        <button class="button button--primary works__button" type="button">Загрузить еще</button>
-      </section>
-
-      <section class="maintenance">
-        <h2 class="maintenance__title">В стоимость разработки входит:</h2>
-        <ul class="questions">
-          <li class="questions__item">
-            <button class="questions__btn" href="#">
-              <img class="questions__btn-img" src="img/maintenance/devices.png" width="88" height="66" alt="">
-              <span class="questions__btn-descr">Лендинг будет отображаться на всех устройствах</span>
-            </button>
-          </li>
-          <li class="questions__item">
-            <button class="questions__btn" href="#">
-              <img class="questions__btn-img" src="img/maintenance/domain.png" width="71" height="75"  alt="">
-              <span class="questions__btn-descr">Домен и хостинг, где будет сайт</span>
-            </button>
-          </li>
-          <li class="questions__item">
-            <button class="questions__btn" href="#">
-              <img class="questions__btn-img" src="img/maintenance/service.png" height="67" width="71" alt="">
-              <span class="questions__btn-descr">3 месяца бесплатного обслуживания</span>
-            </button>
-          </li>
-          <li class="questions__item">
-            <button class="questions__btn" href="#">
-              <img class="questions__btn-img" src="img/maintenance/cpm.png" width="94" height="63" alt="">
-              <span class="questions__btn-descr">Подключим интеграцию с СРМ</span>
-            </button>
-          </li>
-        </ul>
-      </section>
-
-      <section class="catalog">
-        <h2 class="catalog__title">Сайты, которые гарантировано будут приносить Вам заявки</h2>
-        <div class="catalog__content">
-          <article class="website">
-            <img class="website__img" src="img/catalog/roof.jpg" width="300" height="233" alt="">
-            <div class="website__content">
-              <h3 class="website__content-title">Задачи:</h3>
-              <ol class="website__list">
-                <li class="website__item">Создание сайта под компанию</li>
-                <li class="website__item">Увеличить поток клиентов</li>
-                <li class="website__item">Обучение персонала работе с СРМ системой</li>
-                <li class="website__item">Улучшение узнаваемости компании в интернете</li>
-              </ol>
-            </div>
-            <div class="website__content">
-              <h3 class="website__content-title">Итоги:</h3>
-              <p class="website__content-descr">Количество заявок 669</p>
-              <p class="website__content-descr">Цена заявки 1750 руб</p>
-            </div>
-            <div class="website__content">
-              <h3 class="website__content-title">Сайт:</h3>
-              <a class="website__content-link" href="#">granss.ru</a>
-            </div>
-          </article>
-          <article class="website">
-            <img class="website__img" src="img/catalog/roof.jpg" width="300" height="233" alt="">
-            <div class="website__content">
-              <h3 class="website__content-title">Задачи:</h3>
-              <ol class="website__list">
-                <li class="website__item">Создание сайта под компанию</li>
-                <li class="website__item">Увеличить поток клиентов</li>
-                <li class="website__item">Обучение персонала работе с СРМ системой</li>
-                <li class="website__item">Улучшение узнаваемости компании в интернете</li>
-              </ol>
-            </div>
-            <div class="website__content">
-              <h3 class="website__content-title">Итоги:</h3>
-              <p class="website__content-descr">Количество заявок 250</p>
-              <p class="website__content-descr">Цена заявки 2000 руб</p>
-            </div>
-            <div class="website__content">
-              <h3 class="website__content-title">Сайт:</h3>
-              <a class="website__content-link" href="#">kuhnia.aksat.ru</a>
-            </div>
-          </article>
-          <article class="website">
-            <img class="website__img" src="img/catalog/roof.jpg" width="300" height="233" alt="">
-            <div class="website__content">
-              <h3 class="website__content-title">Задачи:</h3>
-              <ol class="website__list">
-                <li class="website__item">Создание сайта под компанию</li>
-                <li class="website__item">Увеличить поток клиентов</li>
-                <li class="website__item">Обучение персонала работе с СРМ системой</li>
-                <li class="website__item">Улучшение узнаваемости компании в интернете</li>
-              </ol>
-            </div>
-            <div class="website__content">
-              <h3 class="website__content-title">Итоги:</h3>
-              <p class="website__content-descr">Количество заявок 470</p>
-              <p class="website__content-descr">Цена заявки 1490 руб</p>
-            </div>
-            <div class="website__content">
-              <h3 class="website__content-title">Сайт:</h3>
-              <a class="website__content-link" href="#">claren.ru</a>
-            </div>
-          </article>
-          <article class="website">
-            <img class="website__img" src="img/catalog/roof.jpg" width="300" height="233" alt="">
-            <div class="website__content">
-              <h3 class="website__content-title">Задачи:</h3>
-              <ol class="website__list">
-                <li class="website__item">Создание сайта под компанию</li>
-                <li class="website__item">Увеличить поток клиентов</li>
-                <li class="website__item">Обучение персонала работе с СРМ системой</li>
-                <li class="website__item">Улучшение узнаваемости компании в интернете</li>
-              </ol>
-            </div>
-            <div class="website__content">
-              <h3 class="website__content-title">Итоги:</h3>
-              <p class="website__content-descr">Количество заявок 899</p>
-              <p class="website__content-descr">Цена заявки 1200 руб</p>
-            </div>
-            <div class="website__content">
-              <h3 class="website__content-title">Сайт:</h3>
-              <a class="website__content-link" href="#">vessta.ru</a>
-            </div>
-          </article>
-          <button class="button button--primary" type="button">Загрузить еще</button>
-        </div>
-      </section>
-
-      <section class="feedback">
-        <h2 class="feedback__title">Вам нужен сайт, который будет приносить клиентов?</h2>
-        <form class="feedback-form" action="https://echo.htmlacademy.ru/" method="post">
-          <fieldset class="feedback-form__section">
-          <legend class="feedback-form__section-title">Заполните форму и мы свяжемся с вами в ближайшее время!</legend>
-          <label class="feedback-form__field feedback-form__field--required">
-            <input class="feedback-form__field-control" type="text" name="owner-name" id="owner-name" placeholder="Ваше имя">
-          </label>
-          <label class="feedback-form__field feedback-form__field--required">
-            <input class="feedback-form__field-control" type="tel" name="owner-phone" id="owner-phone" placeholder="Номер вашего телефона">
-          </label>
-          <label class="feedback-form__field feedback-form__field--required">
-            <input class="feedback-form__field-control" type="email" name="owner-email" id="owner-email" placeholder="Введите ваш E-mail">
-          </label>
-          </fieldset>
-          <button class="button button--primary" type="submit">Отправить</button>
-        </form>
-      </section>
-
-      <section class="info">
-        <h2 class="info__title">Часто задаваемые вопросы</h2>
-        <div class="info__row">
-          <div class="info__content">
-            <h3 class="info__content-title">Как происходит рабочий процесс по созданию сайта?</h3>
-            <ol class="info__list">
-              <li class="info__item"> Маркетолог создает прототип будущего сайта - самый важный этап в создании сайта.</li>
-              <li class="info__item"> После утверждения прототипа мы рисуем дизайн (ПК, мобильная версия).</li>
-              <li class="info__item"> После утверждения дизайна мы приступаем к верстке и программированию.</li>
-              <li class="info__item"> После программирования на сайт заливается контент (текст / фото и т.д.).</li>
-              <li class="info__item"> После контента сайт размещается на основном домене.</li>
-              <li class="info__item"> Сайт готов, все доступы передаются заказчику.</li>
-            </ol>
-          </div>
-          <div class="info__content">
-            <h3 class="info__content-title">Какую гарантию даете на создание сайта?</h3>
-            <ol class="info__list">
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-            </ol>
-          </div>
-          <div class="info__content">
-            <h3 class="info__content-title">Сколько времени уходит на создание сайта?</h3>
-            <ol class="info__list">
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-            </ol>
-          </div>
-          <div class="info__content">
-            <h3 class="info__content-title">Можно ли потом менять самостоятельно информацию на сайте: фото, текст, контакты?</h3>
-            <ol class="info__list">
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-            </ol>
-          </div>
-          <div class="info__content">
-            <h3 class="info__content-title">Почему стоимость сайта выше, чем у конкурентов?</h3>
-            <ol class="info__list">
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-              <li class="info__item"></li>
-            </ol>
-          </div>
-        </div>
-        <div class="info__row">
-          <form class="feedback-form" action="https://echo.htmlacademy.ru/" method="post">
-            <fieldset class="feedback-form__section">
-            <legend class="feedback-form__section-title">Заполните форму и мы свяжемся с вами в ближайшее время!</legend>
-            <label class="feedback-form__field feedback-form__field--required">
-              <input class="feedback-form__field-control" type="text" name="owner-name" id="owner-name" placeholder="Ваше имя">
-            </label>
-            <label class="feedback-form__field feedback-form__field--required">
-              <input class="feedback-form__field-control" type="tel" name="owner-phone" id="owner-phone" placeholder="Номер вашего телефона">
-            </label>
-            <label class="feedback-form__field feedback-form__field--required">
-              <input class="feedback-form__field-control" type="email" name="owner-email" id="owner-email" placeholder="Введите ваш E-mail">
-            </label>
-            </fieldset>
-            <button class="button button--primary" type="submit">Отправить</button>
-          </form>
-        </div>
-      </section>
-    </div>
+        </section>
+      </div>
   </main>
 
   <footer class="page__footer">
