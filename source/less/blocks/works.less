@@ -2,6 +2,15 @@
   display: grid;
   padding-bottom: 65px;
 
+  @media (min-width: @tablet-width) {
+    width: 728px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: 1170px;
+  }
+
   &__title {
     margin: 0;
     font-size: 26px;
