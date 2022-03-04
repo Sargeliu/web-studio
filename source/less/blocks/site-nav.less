@@ -1,0 +1,27 @@
+.site-nav {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+
+  &__item {
+    padding: 12px 0;
+    align-self: center;
+  }
+
+  &__link {
+    color: @black;
+  }
+}
+
+@media (max-width: @mobile-width-only) {
+  .main-nav--closed .site-nav {
+    display: none;
+  }
+
+  .main-nav--nojs .main-nav__toggle {
+    display: none;
+  }
+}
